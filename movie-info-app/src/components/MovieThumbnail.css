@@ -1,0 +1,35 @@
+.MovieThumbnail{
+    width: 168px;
+    height: 340px;
+    font-size: 12px;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.MovieInfo{
+    height: 100px;
+    overflow: auto;
+}
+
+.Title
+{
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #50E3C2;
+}
+
+.InfoLabel{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: #E2E5EF;
+}
+
+.Info{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: #50E3C2;
+}

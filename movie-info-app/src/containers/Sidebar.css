@@ -1,0 +1,29 @@
+.Sidebar{
+    position: relative;
+    padding-top: 5%;
+	width: 5%;
+    height: 100vh;
+    background-color: #50E3C2;
+	float: left;
+	text-align: center;
+}
+
+.MenuIcon{
+    width: 100%;
+    height: 60px;
+    color:#1F2536;
+    background-color: #50E3C2;
+
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.MenuIcon:active{
+    width: 100%;
+    height: 60px;
+    color: #50E3C2;
+    background-color:  #1F2536;
+
+    color: 50E3C2;
+    padding-top: 10px;
+}

@@ -1,0 +1,45 @@
+.Header{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    width: 95%;
+    height: 25%;
+    float: right;
+}
+
+.HeaderTitle{
+    font-family: Helvetica;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.SearchBar{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.nav-link{
+	border: 2px solid #50E3C2;
+	border-radius: 10px;
+	padding: 5px 50px;
+	width: 130px;
+	margin-left: 20px;
+}
+
+.HeaderMenuItem{
+    border: 2px solid #50E3C2;
+	border-radius: 10px;
+	/* padding: 5px 50px; */
+	width: 130px;
+    /* margin-left: 20px; */
+    
+    font-family: SFCompactText;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+  

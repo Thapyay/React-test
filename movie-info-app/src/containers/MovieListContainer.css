@@ -1,0 +1,30 @@
+.MovieListContainer{
+    position: relative;
+    width: 91%;    
+    height: 75%;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow-y: scroll;
+}
+
+.row{
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #dadada;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px #1b1b1b;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}

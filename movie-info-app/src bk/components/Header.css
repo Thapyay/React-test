@@ -1,0 +1,22 @@
+.header h3 {
+    font-family: Helvetica;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+
+    color: #FFFFFF;
+}
+
+.header span{
+    font-size: 18px;
+    color: #B9BFD1;
+}
+
+.header input {
+    font-family: SFCompactText;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    color: #B9BFD1;
+}

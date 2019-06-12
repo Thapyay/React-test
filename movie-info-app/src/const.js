@@ -1,0 +1,15 @@
+export const URL_LIST = 'https://api.themoviedb.org/3/discover/movie';
+export const URL_SEARCH = 'https://api.themoviedb.org/3/search/movie?query=';
+export const URL_DETAIL = 'https://api.themoviedb.org/3/movie/';
+export const URL_PERSON = 'https://api.themoviedb.org/3/person/';
+export const URL_IMG = 'https://image.tmdb.org/t/p/';
+export const URL_YOUTUBE = 'https://www.youtube.com/embed/';
+export const URL_CAST = '/casts';
+export const URL_VIDEO = '/videos';
+export const URL_GENRES = 'https://api.themoviedb.org/3/genre/movie/list';
+export const IMG_SIZE_XSMALL = 'w45';
+export const IMG_SIZE_THUMBNAIL = 'w154';
+export const IMG_SIZE_LARGE = 'w342';
+export const CAST_MAX_NUM = 5;
+export const TRAILER_MAX_NUM = 3;
+export const API_KEY = '?api_key=50f71a6b32a8d2a3886e3b3516f4c7ad';

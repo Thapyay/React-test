@@ -1,0 +1,14 @@
+.sidebar{
+    padding-top: 50px;
+    height: 100%;
+    background: #50E3C2;
+}
+
+.sidebar FontAwesome{
+    text-align: center;
+    
+    padding-top: 50px;
+    width: 100%;
+
+    font-size: 30px;
+}
