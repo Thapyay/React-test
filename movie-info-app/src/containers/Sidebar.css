@@ -13,9 +13,8 @@
     height: 60px;
     color:#1F2536;
     background-color: #50E3C2;
-
-    padding-top: 10px;
     font-size: 30px;
+    padding-top: 10px;
 }
 
 .MenuIcon:active{
@@ -23,7 +22,5 @@
     height: 60px;
     color: #50E3C2;
     background-color:  #1F2536;
-
-    color: 50E3C2;
     padding-top: 10px;
 }

@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <Router>      
-      <Route path = '/' exact component = {Header} />
       <Route path = '/' exact component = {Sidebar} />
     </Router>
   );

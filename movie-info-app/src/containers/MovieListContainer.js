@@ -13,8 +13,6 @@ export default class MovieListContainer extends Component{
             movielist: [],
             genereslist: []
         };
-        
-        
     }
 
     componentDidMount() {
@@ -33,8 +31,6 @@ export default class MovieListContainer extends Component{
 		.then(data => {
 			let movielist = data.results.map((movie) => {
 		    	return(
-                    // <MovieThumbnail key={movie.id} path={movie.poster_path} title={movie.title} 
-                    //     release_date={movie.release_date} vote={movie.vote_average}/>
                     <MovieThumbnail movie={movie}/>
 				)
 			})
@@ -46,8 +42,8 @@ export default class MovieListContainer extends Component{
         return (
             <div className='MovieListContainer'>
                 <Row>
-                        {this.state.movielist}
-                        {this.state.genereslist}
+                    {this.state.movielist}
+                    {this.state.genereslist}
                 </Row>
             </div>            
         )
